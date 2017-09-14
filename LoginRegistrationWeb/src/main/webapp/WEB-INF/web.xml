@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>EmployeeRegisterController</servlet-name>
+  	<display-name>EmployeeRegisterController</display-name>
+  	<description></description>
+  	<servlet-class>com.sathish.controller.EmployeeRegisterController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmployeeLoginController</servlet-name>
+  	<display-name>EmployeeLoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.sathish.controller.EmployeeLoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EmployeeRegisterController</servlet-name>
+  	<url-pattern>/EmployeeRegisterController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmployeeLoginController</servlet-name>
+  	<url-pattern>/EmployeeLoginController</url-pattern>
+  </servlet-mapping>
+</web-app>
